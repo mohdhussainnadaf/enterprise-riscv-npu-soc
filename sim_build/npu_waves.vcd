@@ -1,0 +1,524 @@
+$date
+	Fri Sep 18 00:27:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_npu_array $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_n $end
+$scope module uut $end
+$var wire 1 ! clk $end
+$var wire 1 " rst_n $end
+$scope begin assign_inputs[0] $end
+$var parameter 2 # i $end
+$upscope $end
+$scope begin assign_inputs[1] $end
+$var parameter 2 $ i $end
+$upscope $end
+$scope begin assign_inputs[2] $end
+$var parameter 3 % i $end
+$upscope $end
+$scope begin assign_inputs[3] $end
+$var parameter 3 & i $end
+$upscope $end
+$scope begin row[0] $end
+$var parameter 2 ' i $end
+$scope begin col[0] $end
+$var parameter 2 ( j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 ) in_a [7:0] $end
+$var wire 8 * in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 + accum [15:0] $end
+$var reg 8 , out_a [7:0] $end
+$var reg 8 - out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 . j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 / in_a [7:0] $end
+$var wire 8 0 in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 1 accum [15:0] $end
+$var reg 8 2 out_a [7:0] $end
+$var reg 8 3 out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 4 j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 5 in_a [7:0] $end
+$var wire 8 6 in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 7 accum [15:0] $end
+$var reg 8 8 out_a [7:0] $end
+$var reg 8 9 out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 : j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 ; in_a [7:0] $end
+$var wire 8 < in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 = accum [15:0] $end
+$var reg 8 > out_a [7:0] $end
+$var reg 8 ? out_b [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin row[1] $end
+$var parameter 2 @ i $end
+$scope begin col[0] $end
+$var parameter 2 A j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 B in_a [7:0] $end
+$var wire 8 C in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 D accum [15:0] $end
+$var reg 8 E out_a [7:0] $end
+$var reg 8 F out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 G j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 H in_a [7:0] $end
+$var wire 8 I in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 J accum [15:0] $end
+$var reg 8 K out_a [7:0] $end
+$var reg 8 L out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 M j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 N in_a [7:0] $end
+$var wire 1 " rst_n $end
+$var wire 8 O in_b [7:0] $end
+$var reg 16 P accum [15:0] $end
+$var reg 8 Q out_a [7:0] $end
+$var reg 8 R out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 S j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 T in_a [7:0] $end
+$var wire 1 " rst_n $end
+$var wire 8 U in_b [7:0] $end
+$var reg 16 V accum [15:0] $end
+$var reg 8 W out_a [7:0] $end
+$var reg 8 X out_b [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin row[2] $end
+$var parameter 3 Y i $end
+$scope begin col[0] $end
+$var parameter 2 Z j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 [ in_a [7:0] $end
+$var wire 8 \ in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 ] accum [15:0] $end
+$var reg 8 ^ out_a [7:0] $end
+$var reg 8 _ out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 ` j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 a in_a [7:0] $end
+$var wire 8 b in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 c accum [15:0] $end
+$var reg 8 d out_a [7:0] $end
+$var reg 8 e out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 f j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 g in_a [7:0] $end
+$var wire 8 h in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 i accum [15:0] $end
+$var reg 8 j out_a [7:0] $end
+$var reg 8 k out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 l j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 m in_a [7:0] $end
+$var wire 1 " rst_n $end
+$var wire 8 n in_b [7:0] $end
+$var reg 16 o accum [15:0] $end
+$var reg 8 p out_a [7:0] $end
+$var reg 8 q out_b [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin row[3] $end
+$var parameter 3 r i $end
+$scope begin col[0] $end
+$var parameter 2 s j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 t in_a [7:0] $end
+$var wire 8 u in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 v accum [15:0] $end
+$var reg 8 w out_a [7:0] $end
+$var reg 8 x out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 y j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 z in_a [7:0] $end
+$var wire 8 { in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 | accum [15:0] $end
+$var reg 8 } out_a [7:0] $end
+$var reg 8 ~ out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 !" j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 "" in_a [7:0] $end
+$var wire 8 #" in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 $" accum [15:0] $end
+$var reg 8 %" out_a [7:0] $end
+$var reg 8 &" out_b [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 '" j $end
+$scope module pe_inst $end
+$var wire 1 ! clk $end
+$var wire 8 (" in_a [7:0] $end
+$var wire 8 )" in_b [7:0] $end
+$var wire 1 " rst_n $end
+$var reg 16 *" accum [15:0] $end
+$var reg 8 +" out_a [7:0] $end
+$var reg 8 ," out_b [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 '"
+b10 !"
+b1 y
+b0 s
+b11 r
+b11 l
+b10 f
+b1 `
+b0 Z
+b10 Y
+b11 S
+b10 M
+b1 G
+b0 A
+b1 @
+b11 :
+b10 4
+b1 .
+b0 (
+b0 '
+b11 &
+b10 %
+b1 $
+b0 #
+$end
+#0
+$dumpvars
+bx ,"
+bx +"
+bx *"
+bx )"
+bx ("
+bx &"
+bx %"
+bx $"
+bx #"
+bx ""
+bx ~
+bx }
+bx |
+bx {
+bx z
+bx x
+bx w
+bx v
+bx u
+bx t
+bx q
+bx p
+bx o
+bx n
+bx m
+bx k
+bx j
+bx i
+bx h
+bx g
+bx e
+bx d
+bx c
+bx b
+bx a
+bx _
+bx ^
+bx ]
+bx \
+bx [
+bx X
+bx W
+bx V
+bx U
+bx T
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx L
+bx K
+bx J
+bx I
+bx H
+bx F
+bx E
+bx D
+bx C
+bx B
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx -
+bx ,
+bx +
+bx *
+bx )
+0"
+0!
+$end
+#5
+b0 +
+b0 -
+b0 C
+b0 ,
+b0 /
+b0 1
+b0 3
+b0 \
+b0 2
+b0 5
+b0 7
+b0 9
+b0 u
+b0 8
+b0 ;
+b0 =
+b0 ?
+b0 >
+b0 D
+b0 F
+b0 I
+b0 E
+b0 H
+b0 J
+b0 L
+b0 b
+b0 K
+b0 N
+b0 P
+b0 R
+b0 {
+b0 Q
+b0 T
+b0 V
+b0 X
+b0 W
+b0 ]
+b0 O
+b0 _
+b0 ^
+b0 a
+b0 c
+b0 e
+b0 h
+b0 d
+b0 g
+b0 i
+b0 k
+b0 #"
+b0 j
+b0 m
+b0 o
+b0 q
+b0 p
+b0 v
+b0 U
+b0 x
+b0 w
+b0 z
+b0 |
+b0 n
+b0 ~
+b0 }
+b0 ""
+b0 $"
+b0 &"
+b0 )"
+b0 %"
+b0 ("
+b0 *"
+b0 ,"
+b0 +"
+1!
+#10
+0!
+b11 *
+b10 )
+1"
+#15
+bx v
+bx w
+bx z
+bx ]
+bx ^
+bx a
+bx D
+bx E
+bx H
+bx =
+bx ?
+bx 7
+bx 9
+bx u
+bx 1
+bx 3
+bx \
+b110 +
+b11 -
+b11 C
+b10 ,
+b10 /
+1!
+#20
+0!
+b101 *
+b100 )
+#25
+b11010 +
+b101 -
+b101 C
+b100 ,
+b100 /
+b10 2
+b10 5
+b11 F
+b11 I
+bx J
+bx K
+bx N
+bx O
+bx _
+bx c
+bx d
+bx g
+bx U
+bx x
+bx |
+bx }
+bx ""
+1!
+#30
+0!
+#35
+bx $"
+bx %"
+bx ("
+bx i
+bx j
+bx m
+bx V
+bx X
+bx P
+bx R
+bx {
+bx Q
+bx T
+b11 L
+b11 b
+b101 F
+b101 I
+b10 8
+b10 ;
+b100 2
+b100 5
+b101110 +
+1!
+#40
+0!
+#45
+b1000010 +
+b100 8
+b100 ;
+b10 >
+b101 L
+b101 b
+bx W
+b11 e
+b11 h
+bx o
+bx p
+bx n
+bx ~
+bx *"
+bx +"
+1!
+#50
+0!

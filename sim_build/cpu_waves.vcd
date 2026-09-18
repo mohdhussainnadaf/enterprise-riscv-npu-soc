@@ -1,0 +1,52 @@
+$date
+	Fri Sep 18 00:27:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_cpu_core $end
+$var wire 1 ! zero $end
+$var wire 32 " result [31:0] $end
+$var reg 32 # a [31:0] $end
+$var reg 4 $ alu_ctrl [3:0] $end
+$var reg 32 % b [31:0] $end
+$scope module uut $end
+$var wire 32 & a [31:0] $end
+$var wire 4 ' alu_ctrl [3:0] $end
+$var wire 32 ( b [31:0] $end
+$var wire 5 ) shift_amt [4:0] $end
+$var reg 32 * result [31:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101000 *
+b11001 )
+b11001 (
+b0 '
+b1111 &
+b11001 %
+b0 $
+b1111 #
+b101000 "
+0!
+$end
+#10
+b10100 )
+b11110 "
+b11110 *
+b1 $
+b1 '
+b10100 %
+b10100 (
+b110010 #
+b110010 &
+#20
